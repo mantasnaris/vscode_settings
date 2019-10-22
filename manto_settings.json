@@ -1,0 +1,100 @@
+{
+    //todo highlight
+    "todohighlight.keywords": [
+        {
+            "text": "#NOTE:",
+            "color": "#272822",
+            "backgroundColor": "#C401D7",
+            "overviewRulerColor": "#C401D7",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#CITE:",
+            "color": "#272822",
+            "backgroundColor": "#00DB8E",
+            "overviewRulerColor": "#00DB8E",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#DONE:",
+            "color": "#272822",
+            "backgroundColor": "#56ADBC",
+            "overviewRulerColor": "#56ADBC",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#TODO:",
+            "color": "#272822",
+            "backgroundColor": "#F6D42A",
+            "overviewRulerColor": "#F5C400",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#YO:",
+            "color": "#272822",
+            "backgroundColor": "#FD971F",
+            "overviewRulerColor": "#FD971F",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#FIX:",
+            "color": "#272822",
+            "backgroundColor": "#FF0000",
+            "overviewRulerColor": "#FF0000",
+            "fontWeight": "500"
+        },
+        {
+            "text": "#FUTURE:",
+            "color": "#272822",
+            "backgroundColor": "#F92672",
+            "overviewRulerColor": "#ed006b",
+            "fontWeight": "500"
+        },
+        {
+            "text": "YEET:",
+            "color": "#272822",
+            "backgroundColor": "#ffffff",
+            "overviewRulerColor": "#ffffff",
+            "fontWeight": "500"
+        }
+    ],
+
+    //enable julia multithreading (on windows)
+    "terminal.integrated.env.windows": {
+        "JULIA_NUM_THREADS": "16",
+    },
+
+    //highlight julia types with their own color
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+            "scope": "support.type.julia",
+            "settings": {"foreground": "#FD971F"}
+            }
+        ]
+    },
+
+    //assorted useful settings
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggest.localityBonus": true,
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.panel.defaultLocation": "right",
+    "editor.tabCompletion": "on",
+    "window.restoreWindows": "none",
+
+    //useless but awesome cosmetic settings
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "editor.fontWeight": "300",
+    "window.titleBarStyle": "custom",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.maxColumn": 180,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase"
+}
