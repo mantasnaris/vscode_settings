@@ -9,7 +9,7 @@
             "fontWeight": "500"
         },
         {
-            "text": "#CITE:",
+            "text": "#TEST:",
             "color": "#272822",
             "backgroundColor": "#00DB8E",
             "overviewRulerColor": "#00DB8E",
@@ -78,7 +78,6 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.suggest.localityBonus": true,
     "terminal.integrated.rightClickBehavior": "selectWord",
-    "terminal.integrated.rendererType": "dom",
     "workbench.panel.defaultLocation": "right",
     "editor.tabCompletion": "on",
     "window.restoreWindows": "none",
