@@ -1,63 +1,85 @@
 {
-    //todo highlight
-    "todohighlight.keywords": [
-        {
-            "text": "#NOTE:",
-            "color": "#272822",
-            "backgroundColor": "#C401D7",
-            "overviewRulerColor": "#C401D7",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#TEST:",
-            "color": "#272822",
-            "backgroundColor": "#00DB8E",
-            "overviewRulerColor": "#00DB8E",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#DONE:",
-            "color": "#272822",
-            "backgroundColor": "#56ADBC",
-            "overviewRulerColor": "#56ADBC",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#TODO:",
-            "color": "#272822",
-            "backgroundColor": "#F6D42A",
-            "overviewRulerColor": "#F5C400",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#YO:",
-            "color": "#272822",
-            "backgroundColor": "#FD971F",
-            "overviewRulerColor": "#FD971F",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#FIX:",
-            "color": "#272822",
-            "backgroundColor": "#FF0000",
-            "overviewRulerColor": "#FF0000",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#FUTURE:",
-            "color": "#272822",
-            "backgroundColor": "#F92672",
-            "overviewRulerColor": "#ed006b",
-            "fontWeight": "500"
-        },
-        {
-            "text": "#YEET:",
-            "color": "#272822",
-            "backgroundColor": "#ffffff",
-            "overviewRulerColor": "#ffffff",
-            "fontWeight": "500"
-        }
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "issue-opened",
+        "type": "tag-and-comment",
+        "foreground": "#272822",
+        "background": "white",
+        "rulerColour": "white",
+        "iconColour": "white",
+        "fontWeight": "500"
+    },
+    
+    "todo-tree.general.tags": [
+        "TODO:",
+        "NOTE:",
+        "CITE:",
+        "TEST:",
+        "DOC:",
+        "DONE:",
+        "YO:",
+        "FIX:",
+        "FUTURE:",
+        "MAYBE:",
+        "YEET:"
     ],
+
+    "todo-tree.highlights.customHighlight": {
+        "NOTE:": {
+            "background": "#C401D7",
+            "rulerColour": "#C401D7",
+            "iconColour": "#C401D7",
+            "icon": "info"
+        },
+        "CITE:": {
+            "background": "#00DB8E",
+            "rulerColour": "#00DB8E",
+            "iconColour": "#00DB8E"
+        },
+        "TEST:": {
+            "background": "#00DB8E",
+            "rulerColour": "#00DB8E",
+            "iconColour": "#00DB8E"
+        },
+        "DOC:": {
+            "background": "#00DB8E",
+            "rulerColour": "#00DB8E",
+            "iconColour": "#00DB8E"
+        },
+        "DONE:": {
+            "background": "#56ADBC",
+            "rulerColour": "#56ADBC",
+            "iconColour": "#56ADBC",
+            "icon": "check"
+        },
+        "TODO:": {
+            "background": "#F6D42A",
+            "rulerColour": "#F6D42A",
+            "iconColour": "#F6D42A",
+            "icon": "tasklist"
+        },
+        "YO:": {
+            "background": "#FD971F",
+            "rulerColour": "#FD971F",
+            "iconColour": "#FD971F"
+        },
+        "FIX:": {
+            "background": "#FF0000",
+            "rulerColour": "#FF0000",
+            "iconColour": "#FF0000",
+            "icon": "x"
+        },
+        "FUTURE:": {
+            "background": "#F92672",
+            "rulerColour": "#F92672",
+            "iconColour": "#F92672",
+            "icon": "versions"
+        },
+        "MAYBE:": {
+            "background": "#F92672",
+            "rulerColour": "#F92672",
+            "iconColour": "#F92672"
+        }
+    },
 
     //enable julia multithreading (on windows)
     "terminal.integrated.env.windows": {
